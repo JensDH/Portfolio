@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+}
+
+#wrapper {
+    background-color: brown;
+}
+
+header {
+    background-color: blue;
+    height: 200px;
+}
+
+nav {
+    background-color: red;
+    height: 50px;
+}
+
+main {
+    background-color: purple;
+    height: 1000px;
+}
+
+footer {
+    background-color: orange;
+    height: 200px;
+}
+
