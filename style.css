@@ -1,19 +1,39 @@
 * {
-    margin: 0px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
     background-color: brown;
 }
 
-header {
-    background-color: blue;
-    height: 200px;
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: #F0EDEE;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
 
-nav {
-    background-color: red;
-    height: 50px;
+nav ul li {
+    display: inline-block;
+    border-right: 1px solid black;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #2C666E;
+}
+
+nav li.active {
+    background-color: #90DDF0;
 }
 
 main {
