@@ -2,13 +2,22 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+  background-color: #90ddf0;
+  height: 100px;
+}
+
+header h1 {
+  text-align: center;
+  line-height: 100px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #f0edee;
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -34,13 +43,37 @@ li a:hover {
   background-color: #90ddf0;
 }
 
+#wrapper {
+  background-color: #2c666e;
+  width: 1000px;
+  margin: auto;
+}
 
 main {
   background-color: white;
-  height: 1000px;
+  height: 500px;
+  margin-top: 30px;
+}
+
+main #text {
+  float: left;
+}
+
+main img {
+  float: right;
 }
 
 footer {
-  background-color: blueviolet;
-  height: 200px;
+  background-color: #90ddf0;
+  height: 150px;
+}
+
+footer #imageholder {
+  text-align: center;
+}
+
+footer img {
+  width: 50px;
+  display: inline-block;
+  padding: 20px;
 }
