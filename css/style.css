@@ -56,6 +56,12 @@ main {
   margin-top: 30px;
 }
 
+main #contactimages img {
+  width: 100px;
+  float: left;
+  display: block;
+}
+
 main #text {
   float: left;
 }
